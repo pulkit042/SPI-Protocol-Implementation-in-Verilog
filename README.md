@@ -43,6 +43,11 @@ It uses four main signals:
 
 ---
 
+## Internal Registers Used
+![reg](./Files/reg.png)
+
+---
+
 ## Ouput Waveform
 ![waveform](./Files/spi_waveform.png)
 
