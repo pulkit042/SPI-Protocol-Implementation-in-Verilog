@@ -44,7 +44,7 @@ It uses four main signals:
 ---
 
 ## Ouput Waveform
-![waveform](./Files/spi_protocol.png)
+![waveform](./Files/spi_waveform.png)
 
 ---
 
