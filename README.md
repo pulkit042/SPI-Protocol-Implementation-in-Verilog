@@ -33,11 +33,27 @@ It uses four main signals:
 
 ---
 
+## Project Architecture
+![architecture](./Files/arch.png)
+
+---
+
+## MOSI FSM
+![fsm](./Files/fsm.png)
+
+---
+
+## Ouput Waveform
+![waveform](./Files/spi_protocol.png)
+
+---
+
 ## Project Structure
 - ├── spi_master.v # SPI Master Module
 - ├── spi_slave.v # SPI Slave Module
-- ├── spi_top.v # Top module connecting Master and Slave
 - ├── spi_tb.v # Testbench for simulation
+- ├── master_synth.v # Master module synthesised netlist
+- ├── slave_synth.v # Slave module synthesised netlist
 - └── README.md
 
 ---
@@ -45,6 +61,7 @@ It uses four main signals:
 ## Tools Used
 - Icarus Verilog (iverilog) – for compilation
 - GTKWave – for waveform visualization
+- Yosys - for netlist generation
 
 ---
 
